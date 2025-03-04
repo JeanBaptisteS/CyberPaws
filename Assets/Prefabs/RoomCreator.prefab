@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8317983954925208851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8317983954925208848}
+  - component: {fileID: 8317983954925208849}
+  m_Layer: 0
+  m_Name: RoomCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8317983954925208848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8317983954925208851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8317983954925208849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8317983954925208851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1774fe5d2faa840898d004b93f3939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorPrefab: {fileID: 3600138058273215966, guid: f432e6fe71c50434f9f8357803538c9a, type: 3}
+  wallPrefab: {fileID: 3576433158314282741, guid: acce52b2987358b418ba1be5505609c2, type: 3}
+  ceilingPrefab: {fileID: 6549034971660689149, guid: bb39e220854bbcf418e1a43fcbb284c8, type: 3}
+  lightPrefab: {fileID: 2047478373980615507, guid: 3ff8152a019752845b85f016b88a9c76, type: 3}
+  reflectionProbePrefab: {fileID: 6737492395018692848, guid: 34b3fdbac720095439f9359a95f1eda8, type: 3}
+  lightProbePrefab: {fileID: 5410319141643570703, guid: cc2e3ba8373c6df47894cd804a0bae37, type: 3}
+  securityCamPrefab: {fileID: 3516766978856061210, guid: eff4e4bedef84dd4d8e5a7ed328f2015, type: 3}
+  baseboardStraight: {fileID: 386249878202519016, guid: bdd7732f9751e864f8c1e8e78c70e65e, type: 3}
+  baseboardCornerInner: {fileID: 8058936174548663935, guid: ddbe6a20cfb28204e89756f93febfef0, type: 3}
+  baseboardCornerOuter: {fileID: 1367229354417096293, guid: f7a6806ab49fd5e4d97d6d7518b19fd9, type: 3}
+  tileDimensions: {x: 4, y: 3, z: 4}
+  roomDimensions: {x: 3, y: 2, z: 6}
+  entryDoor:
+    prefab: {fileID: 4532230947680298252, guid: 4b47b75cadb0bfd439ebcb16452abf80, type: 3}
+    coords: {x: 1, y: 0, z: 0}
+    side: 0
+  exitDoor:
+    prefab: {fileID: 6795775062312473773, guid: 1f5190ddc6a8229458bb6dfbdcc3dc7b, type: 3}
+    coords: {x: 1, y: 0, z: 5}
+    side: 1
+  debug: 1

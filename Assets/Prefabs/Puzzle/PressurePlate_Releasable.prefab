@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1932443954616240180
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2486534925294227211, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 45dcae88844584643a001bbf2abb03ed, type: 2}
+    - target: {fileID: 2486814975788359168, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: DebugColor.b
+      value: 0.21568626
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486814975788359168, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: DebugColor.g
+      value: 0.90459913
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486814975788359168, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: DebugColor.r
+      value: 0.9529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2099249468668404714}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Release
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PxlSpace.Fox.PressurePlate, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: LineColorSwitcher, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: LineColorSwitcher, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849138723031642992, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: OnInteractExit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500009938174491405, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: DebugColor.b
+      value: 0.21568626
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500009938174491405, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: DebugColor.g
+      value: 0.9417384
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500009938174491405, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: DebugColor.r
+      value: 0.9529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 7460512437648277364, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 45dcae88844584643a001bbf2abb03ed, type: 2}
+    - target: {fileID: 8732567430374082896, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 786b78f6cb5adf7469c08313a4a9039d, type: 2}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919116, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732567432049919117, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+      propertyPath: m_Name
+      value: PressurePlate_Releasable
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+--- !u!114 &2099249468668404714 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 572911310760111070, guid: fd707e6b26e61b146923035ed0e4a329, type: 3}
+  m_PrefabInstance: {fileID: 1932443954616240180}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa62ab000bc7100438f5f9fb56b53453, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
